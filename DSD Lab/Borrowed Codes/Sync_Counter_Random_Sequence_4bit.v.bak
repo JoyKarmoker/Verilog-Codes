@@ -1,0 +1,21 @@
+module four_bit_sync_counter(q,clk,clear);
+
+output [3:0]q;
+input clk,clear;
+
+or(td,q[0],q[1]);
+
+tff tffD(q[3],qbar,td,clk,clear);
+not nt1(qd_not,q[3]);
+or or1(tc,q[1],qd_not);
+tff tffC(q[2],qbar,tc,clk,clear);
+
+xor xr1(qcxorqd,q[3],q[2]);
+or or2(tb,q[0],qcxorqd);
+tff tffB(q[1],qbar,tb,clk,clear);
+
+not nt2(qc_not,q[2]);
+or or3(ta,qd_not,qc_not);
+tff tffA(q[0],qbar,ta,clk,clear);
+
+endmodule

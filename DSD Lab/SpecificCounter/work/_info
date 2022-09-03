@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/Study/2nd Year 1st Semester/DSD Lab/ThreeBitSynchronousUpDownCounter
+vfourinputor
+Z0 !s110 1638421495
+!i10b 1
+!s100 XDg<[7[2LT[;J4_cjWjg>3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In;KF=ViV1_>N3Job=R]:63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter
+w1638415797
+8G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v
+FG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v
+!i122 27
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638421495.000000
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vspecificcounter
+Z7 !s110 1638421494
+!i10b 1
+!s100 WYR_YnObLif;bMJChIO9<0
+R1
+IANBYU:lOS=7l[?6SdfZ=?3
+R2
+R3
+w1638421490
+8G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v
+FG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v
+!i122 24
+L0 1 23
+R4
+r1
+!s85 0
+31
+Z8 !s108 1638421494.000000
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v|
+!i113 1
+R5
+R6
+vtff
+R7
+!i10b 1
+!s100 meL0^^8kCc^l=bCHaIb1X0
+R1
+I2ImbJC`33>EijEShhllHm3
+R2
+R3
+w1638421469
+Z9 8G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v
+Z10 FG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v
+!i122 23
+Z11 L0 1 19
+R4
+r1
+!s85 0
+31
+R8
+Z12 !s107 G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v|
+!i113 1
+R5
+R6
+vTFF
+!s110 1638421394
+!i10b 1
+!s100 iD=Mje0?QmTORVV5SzY>63
+R1
+I:^FnaEThTdJ=8VAlCNzR40
+R2
+R3
+w1638383134
+R9
+R10
+!i122 18
+R11
+R4
+r1
+!s85 0
+31
+!s108 1638421394.000000
+R12
+R13
+!i113 1
+R5
+R6
+n@t@f@f
+vthreeinputand
+R7
+!i10b 1
+!s100 `IeH5EFOz:UY1QCZLnToL0
+R1
+I4DgA?T4DnR2LfGYQG88^70
+R2
+R3
+w1638383846
+8G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v
+FG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v
+!i122 25
+Z14 L0 1 6
+R4
+r1
+!s85 0
+31
+R8
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v|
+!i113 1
+R5
+R6
+vthreeinputor
+R0
+!i10b 1
+!s100 @JTV=Sabho9Bb<IUY<RVN2
+R1
+IPHXadKJU2eB`WbbJSLWA31
+R2
+R3
+w1638414788
+8G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v
+FG:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v
+!i122 26
+R14
+R4
+r1
+!s85 0
+31
+R8
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,19 @@
+module BCDToExcess(A, D);
+	output[3:0] A;
+	input[3:0] D;
+
+	not n0(A[0], D[0]);
+	xnor x0(A[1], D[0], D[1]);
+	
+	or or0(a, D[0], D[1]);
+	not n1(d2not, D[2]);
+	and a0(b, a, d2not);
+
+	not n2(d1not, D[1]);
+	and a1(d, A[0], d1not, D[2]);
+	or or1(A[2], b, d);
+
+	or or2(e, D[0], D[1]);
+	and a2(f, e, D[2]);
+	or(D[3], f, D[3]);
+endmodule

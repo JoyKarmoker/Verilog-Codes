@@ -1,0 +1,4 @@
+module fulladder(S, Cout, A, B, Cin);
+	
+
+endmodule

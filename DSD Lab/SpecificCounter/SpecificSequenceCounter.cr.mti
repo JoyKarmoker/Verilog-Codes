@@ -1,0 +1,36 @@
+{G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/SpecificCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module specificcounter
+
+Top level modules:
+	specificcounter
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputAnd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module threeinputand
+
+Top level modules:
+	threeinputand
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/TFF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tff
+
+Top level modules:
+	tff
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/ThreeInputOr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module threeinputor
+
+Top level modules:
+	threeinputor
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/SpecificCounter/FourInputOr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fourinputor
+
+Top level modules:
+	fourinputor
+
+} {} {}}

@@ -1,0 +1,15 @@
+{G:/Study/2nd Year 1st Semester/DSD Lab/ThreeBitSynchronousUpDownCounter/ThreeBitSynchronousUpDown.v} {1 {vlog -work work -stats=none {G:\Study\2nd Year 1st Semester\DSD Lab\ThreeBitSynchronousUpDownCounter\ThreeBitSynchronousUpDown.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UpDown
+
+Top level modules:
+	UpDown
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/ThreeBitSynchronousUpDownCounter/TFF.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/ThreeBitSynchronousUpDownCounter/TFF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TFF
+
+Top level modules:
+	TFF
+
+} {} {}}

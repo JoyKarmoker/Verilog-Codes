@@ -1,0 +1,27 @@
+# Compile of BCD To Excess-3.v was successful.
+vsim -gui work.BCDToExcess
+# vsim -gui work.BCDToExcess 
+# Start time: 17:34:25 on Dec 08,2021
+# Loading work.BCDToExcess
+add wave -position insertpoint  \
+sim:/BCDToExcess/D
+add wave -position end  sim:/BCDToExcess/A
+quit -sim
+# End time: 17:36:10 on Dec 08,2021, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 5
+# Compile of BCD To Excess-3.v was successful.
+vsim -gui work.BCDToExcess
+# vsim -gui work.BCDToExcess 
+# Start time: 17:36:23 on Dec 08,2021
+# Loading work.BCDToExcess
+add wave -position insertpoint  \
+sim:/BCDToExcess/D
+add wave -position end  sim:/BCDToExcess/A
+force -freeze sim:/BCDToExcess/D 0000 0
+run
+force -freeze sim:/BCDToExcess/D 0001 0
+run
+force -freeze sim:/BCDToExcess/D 1001 0
+run
+# End time: 17:47:04 on Dec 08,2021, Elapsed time: 0:10:41
+# Errors: 0, Warnings: 2

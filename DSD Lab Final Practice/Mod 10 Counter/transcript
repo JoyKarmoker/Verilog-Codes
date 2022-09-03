@@ -1,0 +1,209 @@
+# Compile of JKFF.v failed with 1 errors.
+# Compile of JKFF.v was successful.
+vsim -gui work.JKFF
+# vsim -gui work.JKFF 
+# Start time: 22:53:11 on Dec 08,2021
+# Loading work.JKFF
+add wave -position end  sim:/JKFF/J
+add wave -position end  sim:/JKFF/K
+add wave -position end  sim:/JKFF/CLK
+add wave -position end  sim:/JKFF/CLR
+add wave -position end  sim:/JKFF/Q
+add wave -position end  sim:/JKFF/Qbar
+force -freeze sim:/JKFF/J 0 0
+force -freeze sim:/JKFF/K 1 0
+force -freeze sim:/JKFF/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/JKFF/CLR 0 0
+run
+run
+force -freeze sim:/JKFF/J 1 0
+force -freeze sim:/JKFF/CLR 1 0
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:54:55 on Dec 08,2021, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 7
+# Compile of Mod10Counter.v was successful.
+vsim -gui work.mod10Counter
+# vsim -gui work.mod10Counter 
+# Start time: 22:59:23 on Dec 08,2021
+# Loading work.mod10Counter
+# Loading work.JKFF
+add wave -position end  sim:/mod10Counter/Q
+add wave -position end  sim:/mod10Counter/CLK
+add wave -position end  sim:/mod10Counter/CLR
+force -freeze sim:/mod10Counter/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mod10Counter/CLR 0 0
+run
+run
+run
+run
+force -freeze sim:/mod10Counter/CLR 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:00:17 on Dec 08,2021, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# Compile of JKFF.v was successful.
+# Compile of Mod10Counter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Mod10Counter.v was successful.
+vsim -gui work.mod10Counter
+# vsim -gui work.mod10Counter 
+# Start time: 23:00:59 on Dec 08,2021
+# Loading work.mod10Counter
+# Loading work.JKFF
+add wave -position end  sim:/mod10Counter/CLK
+add wave -position end  sim:/mod10Counter/CLR
+add wave -position end  sim:/mod10Counter/Q
+force -freeze sim:/mod10Counter/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mod10Counter/CLR 0 0
+run
+run
+force -freeze sim:/mod10Counter/CLR 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/mod10Counter/CLR
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 1600 ps ###############
+#       Signal: /mod10Counter/Qbar @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:4)
+#       Signal: /mod10Counter/jkff3/b @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:6)
+#       Signal: /mod10Counter/jkff3/y @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/jkff3/d @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13)
+#       Signal: /mod10Counter/Q @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:2)
+#       Signal: /mod10Counter/jkff3/a @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:5)
+#       Signal: /mod10Counter/jkff3/ybar @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/jkff3/c @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12)
+#       Signal: /mod10Counter/jkff3/cbar @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:11)
+#       Signal: /mod10Counter/Qbar @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:4)
+#       Signal: /mod10Counter/jkff2/c @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12)
+#       Signal: /mod10Counter/jkff2/ybar @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/Q @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:2)
+#       Signal: /mod10Counter/jkff2/d @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13)
+#       Signal: /mod10Counter/jkff2/y @ sub-iteration 0 at Value St0 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#   Active process: /mod10Counter/jkff2/n22 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:9
+#   Active process: /mod10Counter/jkff2/n31 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12
+#   Active process: /mod10Counter/jkff2/n12 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:6
+#   Active process: /mod10Counter/jkff2/n42 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:16
+#   Active process: /mod10Counter/jkff3/n0 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:11
+#   Active process: /mod10Counter/jkff2/n21 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8
+#   Active process: /mod10Counter/jkff2/n32 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13
+#   Active process: /mod10Counter/jkff2/n11 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:5
+#   Active process: /mod10Counter/jkff2/n41 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:15
+#   Active process: /mod10Counter/jkff3/n32 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13
+#   Active process: /mod10Counter/jkff3/n21 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8
+#   Active process: /mod10Counter/no @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:8
+#   Active process: /mod10Counter/jkff3/n12 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:6
+#   Active process: /mod10Counter/jkff3/n42 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:16
+#   Active process: /mod10Counter/jkff3/n31 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12
+#   Active process: /mod10Counter/jkff3/n22 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:9
+#   Active process: /mod10Counter/jkff3/n11 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:5
+#   Active process: /mod10Counter/jkff3/n41 @ sub-iteration 1
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:15
+#       Signal: /mod10Counter/Q @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:2)
+#       Signal: /mod10Counter/jkff3/a @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:5)
+#       Signal: /mod10Counter/jkff3/ybar @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/jkff3/c @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12)
+#       Signal: /mod10Counter/Qbar @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:4)
+#       Signal: /mod10Counter/jkff3/b @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:6)
+#       Signal: /mod10Counter/jkff3/y @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/jkff3/d @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13)
+#       Signal: /mod10Counter/Q @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:2)
+#       Signal: /mod10Counter/jkff2/d @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:13)
+#       Signal: /mod10Counter/jkff2/y @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#       Signal: /mod10Counter/jkff3/cbar @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:11)
+#       Signal: /mod10Counter/Qbar @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/Mod10Counter.v:4)
+#       Signal: /mod10Counter/jkff2/c @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:12)
+#       Signal: /mod10Counter/jkff2/ybar @ sub-iteration 2 at Value St1 (G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8)
+#   Active process: /mod10Counter/jkff2/n21 @ sub-iteration 3
+#     Source: G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Mod 10 Counter/JKFF.v:8
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 1600 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 1600 ps.
+force -freeze sim:/mod10Counter/CLR 0 0
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 1600 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 1600 ps.
+quit -sim
+# End time: 23:02:29 on Dec 08,2021, Elapsed time: 0:01:30
+# Errors: 4, Warnings: 3
+vsim -gui work.mod10Counter
+# vsim -gui work.mod10Counter 
+# Start time: 23:02:45 on Dec 08,2021
+# Loading work.mod10Counter
+# Loading work.JKFF
+add wave -position end  sim:/mod10Counter/CLK
+add wave -position end  sim:/mod10Counter/CLR
+add wave -position end  sim:/mod10Counter/Q
+force -freeze sim:/mod10Counter/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/mod10Counter/CLR 0 0
+run
+run
+run
+noforce sim:/mod10Counter/CLR
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

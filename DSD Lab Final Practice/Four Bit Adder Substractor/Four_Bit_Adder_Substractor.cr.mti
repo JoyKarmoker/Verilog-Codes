@@ -1,0 +1,22 @@
+{G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fourbitaddersubstractor
+
+Top level modules:
+	fourbitaddersubstractor
+
+} {} {}}

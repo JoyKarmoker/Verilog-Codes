@@ -1,0 +1,104 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/Study/2nd Year 1st Semester/DSD Lab
+vfourbitaddersubstractor
+!s110 1638950263
+!i10b 1
+!s100 Hn<22VRc0>LN2oAA7[XGh3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA@h0^g=9UXjaAG;@4g:Mz0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor
+w1638950252
+8G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v
+FG:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v
+!i122 11
+L0 1 16
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638950263.000000
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FourBitAdderSubstractor.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vFullAdder
+!s110 1638947922
+!i10b 1
+!s100 Ch@5_567090@GC2WYm8jb3
+R0
+IKDEXTa8>e@4F:_aiPW]jL2
+R1
+R2
+w1638947914
+Z6 8G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v
+Z7 FG:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v
+!i122 3
+Z8 L0 1 8
+R3
+r1
+!s85 0
+31
+!s108 1638947922.000000
+Z9 !s107 G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/FullAdder.v|
+!i113 1
+R4
+R5
+n@full@adder
+vfulladder
+!s110 1638950027
+!i10b 1
+!s100 gXeHa3_H0zOcdeU@TOoRJ3
+R0
+IgRngkC08O9>4zkV9WkV:@0
+R1
+R2
+w1638950018
+R6
+R7
+!i122 10
+R8
+R3
+r1
+!s85 0
+31
+!s108 1638950027.000000
+R9
+R10
+!i113 1
+R4
+R5
+vhalfadder
+!s110 1638946845
+!i10b 1
+!s100 EmBWUbRzX7gN_PR`nh07S3
+R0
+IF>XikQbGBmi0B<B?3azK70
+R1
+R2
+w1638946834
+8G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v
+FG:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v
+!i122 0
+L0 1 10
+R3
+r1
+!s85 0
+31
+!s108 1638946844.000000
+!s107 G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/Study/2nd Year 1st Semester/DSD Lab Final Practice/Four Bit Adder Substractor/HalfAdder.v|
+!i113 1
+R4
+R5

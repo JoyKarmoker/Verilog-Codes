@@ -1,0 +1,36 @@
+{G:/Study/2nd Year 1st Semester/DSD Lab/HalfAdder.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/HalfAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/FullAdder.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/FullAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/RippleAdder.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/RippleAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rippleadder
+
+Top level modules:
+	rippleadder
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/RippleCounter.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/RippleCounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripplecounter
+
+Top level modules:
+	ripplecounter
+
+} {} {}} {G:/Study/2nd Year 1st Semester/DSD Lab/JKFF.v} {1 {vlog -work work -stats=none {G:/Study/2nd Year 1st Semester/DSD Lab/JKFF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module JKFF
+
+Top level modules:
+	JKFF
+
+} {} {}}

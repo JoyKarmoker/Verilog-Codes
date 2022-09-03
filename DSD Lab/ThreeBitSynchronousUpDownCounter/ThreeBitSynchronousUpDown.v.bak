@@ -1,0 +1,18 @@
+module UpDown(Q, Qbar, CLK, CLR, Mode);
+	output [3:0]Q, Qbar;
+	input CLK, CLR, Mode;
+	
+	not n0(Modebar, Mode);
+	TFF t0(Q[0], Qbar[0], 1'b 1, CLK, CLR);
+	
+	and a0(a, Modebar, Q[0]);
+	and a1(b, Mode, Qbar[0]);
+	or or0(tb, a, b);
+	TFF t1(Q[1], Qbar[1], tb, CLK, CLR);
+
+	
+	and a2(c, a, Q[1]);
+	and a3(d, Qbar[1], b);
+	or or1(tc, c, d);
+	TFF t2(Q[2], Qbar[2], tc, CLK, CLR);
+endmodule
